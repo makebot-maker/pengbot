@@ -1,5 +1,6 @@
 /*makebot pengbot bluetooth code
  * files : https://github.com/makebot-lab/pengbot
+ * otto9 library : http://ottodiy.com/
  */
 #include <Servo.h>
 
