@@ -46,7 +46,7 @@ void loop() {
       Pengbot.sound(1);
     }
     if(btread == 'K') {
-      Pengbot.sound(3);
+      Pengbot.sound(4);
     }
     if(btread == 'L') {
       Pengbot.sound(5);
