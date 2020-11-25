@@ -20,7 +20,6 @@ void Pengbot::detachservo(int x) {
 
 //sensor
 float Pengbot::distance(){
-
   return us.read();
 }
 
@@ -36,15 +35,36 @@ void Pengbot::ready() {  //ready
 }
 
 void Pengbot::stop() {  //stop
-  
+  servo[0].SetPosition(90);
+  servo[1].SetPosition(90);
 }
 
 void Pengbot::forward(int speed) {  //forward
-  
+  servo[0].SetPosition(90 + speed);
+  servo[1].SetPosition(90 - speed);
 }
 
 void Pengbot::backward(int speed) {  //backward
-  
+  servo[0].SetPosition(90 - speed);
+  servo[1].SetPosition(90 + speed);
+}
+
+void Pengbot::turnleft(int speed) {  //turn left
+  servo[0].SetPosition(90 - speed);
+  servo[1].SetPosition(90 - speed);
+}
+
+void Pengbot::turnright(int speed) {  //turn right
+  servo[0].SetPosition(90 + speed);
+  servo[1].SetPosition(90 + speed);
+}
+
+void Pengbot::setleft(int angle) {  //set left servo's angle
+  servo[0].SetPosition(angle);
+}
+
+void Pengbot::setright(int angle) {  //set right servo's angle
+  servo[1].SetPosition(angle);
 }
 
 void Pengbot::sound(int soundnum) {  //sound
