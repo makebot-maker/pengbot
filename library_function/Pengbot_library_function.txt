@@ -1,0 +1,12 @@
+Pengbot library function
+------------------------
+#include <Pengbot.h> //include Pengbot library
+Pengbot.ready(); //initalize pengbot
+Pengbot.stop(); //stop
+Pengbot.forward(/* speed : 0 ~ 90 */); //forward
+Pengbot.backward(/* speed : 0 ~ 90 */); //backward
+Pengbot.turnleft(/* speed : 0 ~ 90 */); //turn left
+Pengbot.turnright(/* speed : 0 ~ 90 */); //turn right
+Pengbot.setleft(/* value : 0 ~ 180 */); //set left servo's angle
+Pengbot.setright(/* value : 0 ~ 180 */); //set right servo's angle
+Pengbot.sound(/* value : 1(happy), 2(sad), 3(surprised), 4(angry), 5(sleepy), 6(joy) */); //play sound
