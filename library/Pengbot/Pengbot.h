@@ -21,8 +21,10 @@ class Pengbot {
     void stop();
     void forward(int speed);
     void backward(int speed);
-    void left(int speed);
-    void right(int speed);
+    void turnleft(int speed);
+    void turnright(int speed);
+    void left(int angle);
+    void right(int angle);
     void sound(int soundnum);
   private:
     Oscillator servo[2];
