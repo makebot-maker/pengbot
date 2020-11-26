@@ -34,7 +34,7 @@ void loop() {
       Pengbot.turnright(45);
     }
     if(btread == 'F') {
-      Pengbot.turnright(45);
+      Pengbot.backward(45);
     }
     if(btread == 'H') {
       Pengbot.sound(6);
