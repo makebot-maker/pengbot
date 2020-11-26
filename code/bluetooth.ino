@@ -33,22 +33,22 @@ void loop() {
     if(btread == 'D') {
       Pengbot.turnright(45);
     }
-    if(btread == 'F') {
+    if(btread == 'E') {
       Pengbot.backward(45);
     }
-    if(btread == 'H') {
+    if(btread == 'F') {
       Pengbot.sound(6);
     }
-    if(btread == 'I') {
+    if(btread == 'G') {
       Pengbot.sound(2);
     }
-    if(btread == 'J') {
+    if(btread == 'H') {
       Pengbot.sound(1);
     }
-    if(btread == 'K') {
+    if(btread == 'I') {
       Pengbot.sound(4);
     }
-    if(btread == 'L') {
+    if(btread == 'J') {
       Pengbot.sound(5);
     }
   }
