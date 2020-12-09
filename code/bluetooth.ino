@@ -1,4 +1,4 @@
-/*makebot pengbot library
+/*makebot pengbot code
  * makebot homepage(English) : http://makebot.mystrikingly.com/
  * makebot homepage(Korean) : https://makebot.modoo.at
  * files : https://github.com/makebot-lab/pengbot
